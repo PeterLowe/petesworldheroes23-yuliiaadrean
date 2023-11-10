@@ -83,6 +83,29 @@ int main()
 		}
 
 	}
+	if (letter == 'b' || letter == 'B') // written by Yuliia 
+	{
+		if (region == 1)
+		{
+			std::cout << "Belize, Benin, Bermuda, Bolivia" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Bosnia and Herzegovina, Belgium" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Botswana" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bangladesh, Bhutan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Bahamas, BahrainArabian Peninsula, Barbados" std::endl;
+		}
+	}
 	
 	
 	
