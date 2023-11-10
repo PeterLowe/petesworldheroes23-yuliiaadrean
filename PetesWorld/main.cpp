@@ -154,7 +154,29 @@ int main()
 			std::cout << "There are no Xs in the rest of the world" << std::endl;
 		}
 	}
-
+	if (letter == 'c' || letter == 'C') // by Adrian
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile, Colombia, Costa Rica" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo (Kinshasa), Congo, Republic of (Brazzaville), Côte D'ivoire (Ivory Coast)" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Cocos (Keeling) Islands, Christmas Island, Cyprus Mediterranean" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cayman Islands Greater Antilles, Cook Islands Polynesia, Cuba Greater Antilles" << std::endl;
+		}
+	}
 	
 	return 1;
 }
